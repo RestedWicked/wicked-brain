@@ -1,0 +1,14 @@
+$wicked_teal: #B9FFF2;
+
+@font-face {
+  font-family: "ProFont";
+  src: url('./ProFontIIxNerdFontMono-Regular.ttf');
+  src: url('./ProFontIIxNerdFontMono-Regular.ttf') format('truetype'),
+       url('./ProFontWindowsNerdFontMono-Regular.ttf') format('truetype');
+}
+
+
+body {
+  font-family: "ProFont";
+  background-color: $wicked_teal;
+}
