@@ -15,10 +15,10 @@ fn Nav() -> Html {
 pub fn App() -> Html {
     
     html! {
-        <main>
+        <div>
             <Nav />
             <header>{ "RestedWicked" }</header>
             <p>{ "gaming" }</p>
-        </main>
+        </div>
     }
 }
